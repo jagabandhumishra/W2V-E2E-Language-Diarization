@@ -25,7 +25,6 @@ path/to/numpy_array1.npy  SSEEGGSE...
 .
 .
 .
-
 ``` 
 * To train a W2V-ES (Statistical Pooling) by using the following command
 ```
