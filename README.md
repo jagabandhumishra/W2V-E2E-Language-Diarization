@@ -16,3 +16,14 @@ The installation and training the W2V model during the pretraining and finetunin
 
 #### Running the code
 
+* After extracting the features (pretrained/finetuned). Create a .tsv file containing the path to the .npy array and its corresponding labels. The .tsv file shold be in the following format.
+```
+path/to/numpy_array1.npy  SSEEGSSE...
+path/to/numpy_array1.npy  SGEEGGSE...
+path/to/numpy_array1.npy  SEEEGESE...
+path/to/numpy_array1.npy  SSEEGGSE...
+.
+.
+.
+
+``` 
