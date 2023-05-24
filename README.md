@@ -41,4 +41,4 @@ python WaveAttention.py --savedir "/data/KLESLD/Final_checkpoints/WavBase/Telagu
  --test "/data/KLESLD/Dataset_WV2/Telugu/Dev/WAVData.tsv" \
  --seed 0 --device 0 --batch 32 --epochs 60 --lang 3 --model my_attention_model --lr 0.0001 --maxlength 666 --lmbda 0.5 --fll "T"
 ```
-##### Note: To train a Gujrati or Tamil pretrained/finetuned model change --fll to 'G' or 'T' accordingly.
+##### Note: To train a Gujrati or Tamil pretrained/finetuned model change ```--fll``` to 'G' or 'T' accordingly.
