@@ -9,3 +9,7 @@ Most of the Code-switched language suffers from primary language biasness. This 
 ![wav2vec](https://github.com/jagabandhumishra/W2v-E2E-Language-diarization/assets/91369740/cc7f5493-4d78-4256-bf00-6f010154e69b)
 
 In the above figure (a) W2V pretraining (b) W2V finetuning. We extract a 768 dimensional feature vector during the pretraining and finetuning stage and then Statistical and Attentional Pooling is performed as shown in (c) and (d)
+
+# Installation
+
+The installation and training the W2V model during the pretraining and finetuning stage is same as [fairseq-vakyansh](https://github.com/Open-Speech-EkStep/vakyansh-wav2vec2-experimentation)
