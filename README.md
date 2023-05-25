@@ -29,7 +29,7 @@ The installation and training the W2V model during the pretraining and finetunin
 After downloading the finetuned checkpoint follow the following steps in order to extract finetuned features from the model:
 * Load the checkpoint using ```torch.load(path/to/checkpoint_best.pt)```
 * Change the path in the model to where the CLSRIL-23.pt checkpoint is located ```path['cfg']['model']['w2v_path']='path/where/the/checkpoint/is/located/CLSRIL-23.pt'```
-* save the new checkpoint to a new location ```torch.save(path, 'checkpoint_new.pt')```
+* Save the new checkpoint to a new location ```torch.save(path, 'checkpoint_new.pt')```
 
 #### Running the code
 
