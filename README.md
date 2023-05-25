@@ -16,12 +16,13 @@ The installation and training the W2V model during the pretraining and finetunin
 
 #### Extract W2V2 features
 * Download the pretrained [CLSRIL-23](https://github.com/Open-Speech-EkStep/vakyansh-models) pretrained model which is trained on 10,000 hours of speech data. 
-* To extract W2V2 features from a finetuned W2V2 model, just run ```wav2vec_finetuned_extract.py```, change the path of the model and the dataset accordingly. Or else, download the finetuned model from the link below.  
+* Download the finetuned model from the link below or train a finetuned model using fairseq-vakyansh  
 
 | model | link    |
 | :---:   | :---: |
 | finetuned_model.pt | [Link](https://zenodo.org/record/7970622)   | 
 
+After downloading the finetuned checkpoint follow the following steps in order to extract finetuned features from the model
 #### Running the code
 
 * After extracting the features (pretrained/finetuned). Create a .tsv file for both the train and validation set containing the path to the .npy array and its corresponding labels. The .tsv file shold be in the following format.
