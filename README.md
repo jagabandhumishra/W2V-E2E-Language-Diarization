@@ -22,7 +22,8 @@ The installation and training the W2V model during the pretraining and finetunin
 | :---:   | :---: |
 | finetuned_model.pt | [Link](https://zenodo.org/record/7970622)   | 
 
-After downloading the finetuned checkpoint follow the following steps in order to extract finetuned features from the model
+After downloading the finetuned checkpoint follow the following steps in order to extract finetuned features from the model:
+* 
 #### Running the code
 
 * After extracting the features (pretrained/finetuned). Create a .tsv file for both the train and validation set containing the path to the .npy array and its corresponding labels. The .tsv file shold be in the following format.
