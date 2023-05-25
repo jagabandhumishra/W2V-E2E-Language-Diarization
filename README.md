@@ -14,6 +14,10 @@ In the above figure (a) W2V pretraining (b) W2V finetuning. We extract a 768 dim
 
 The installation and training the W2V model during the pretraining and finetuning stage is same as [fairseq-vakyansh](https://github.com/Open-Speech-EkStep/vakyansh-wav2vec2-experimentation) 
 
+#### Extract W2V2 features
+
+* To extract W2V2 features from a finetuned W2V2 model, just run ```wav2vec_finetuned_extract.py```, change the path of the model and the dataset accordingly  
+
 #### Running the code
 
 * After extracting the features (pretrained/finetuned). Create a .tsv file containing the path to the .npy array and its corresponding labels. The .tsv file shold be in the following format.
