@@ -15,7 +15,7 @@ In the above figure (a) W2V pretraining (b) W2V finetuning. We extract a 768 dim
 The installation and training the W2V model during the pretraining and finetuning stage is same as [fairseq-vakyansh](https://github.com/Open-Speech-EkStep/vakyansh-wav2vec2-experimentation) 
 
 #### Extract W2V2 features
-* Download the pretrained [CRSIL-23](https://github.com/Open-Speech-EkStep/vakyansh-models) pretrained model which is trained on 10,000 hours of speech data. 
+* Download the pretrained [CLSRIL-23](https://github.com/Open-Speech-EkStep/vakyansh-models) pretrained model which is trained on 10,000 hours of speech data. 
 * To extract W2V2 features from a finetuned W2V2 model, just run ```wav2vec_finetuned_extract.py```, change the path of the model and the dataset accordingly. Or else, download the finetuned model from the link below.  
 
 #### Running the code
