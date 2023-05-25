@@ -12,6 +12,10 @@ In the above figure (a) W2V pretraining (b) W2V finetuning. We extract a 768 dim
 
 ## Installation
 
+#### Prerequisites
+* Python>=3.8
+* torch>1.6
+
 The installation and training the W2V model during the pretraining and finetuning stage is same as [fairseq-vakyansh](https://github.com/Open-Speech-EkStep/vakyansh-wav2vec2-experimentation) 
 
 #### Extract W2V2 features
@@ -23,7 +27,10 @@ The installation and training the W2V model during the pretraining and finetunin
 | finetuned_model.pt | [Link](https://zenodo.org/record/7970622)   | 
 
 After downloading the finetuned checkpoint follow the following steps in order to extract finetuned features from the model:
-* 
+* Load the checkpoint using ```torch.load(path/to/checkpoint_best.pt)```
+* Change the path in the model to where the CLSRIL-23.pt checkpoint is located ```path['cfg']['model']['w2v_path']='path/where/the/checkpoint/is/located/CLSRIL-23.pt'```
+* save the new checkpoint to a new location ```torch.save(path, 'checkpoint_new.pt')```
+
 #### Running the code
 
 * After extracting the features (pretrained/finetuned). Create a .tsv file for both the train and validation set containing the path to the .npy array and its corresponding labels. The .tsv file shold be in the following format.
