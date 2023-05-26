@@ -24,7 +24,9 @@ The installation and training the W2V model during the pretraining and finetunin
 
 | model | link    |
 | :---:   | :---: |
-| finetuned_model.pt | [Link](https://zenodo.org/record/7970622)   | 
+| Gujrati.pt | [Link](https://zenodo.org/record/7970622)   | 
+| Tamil.pt | [Link](https://zenodo.org/record/7970622)   |
+| Telegu.pt | [Link](https://zenodo.org/record/7970622)   |
 
 After downloading the finetuned checkpoint follow the following steps in order to extract finetuned features from the model:
 * Load the checkpoint using ```torch.load(path/to/checkpoint_best.pt)```
