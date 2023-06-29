@@ -18,8 +18,8 @@ from torch.utils.data import Dataset, DataLoader
 3. Save the new model
    torch.save(path, 'checkpoint_new.pt')
 """
-cp_path = '/DATA/jagabandhu/LD/Displace/finetuning_checkpoints/checkpoint_new.pt'
-train = glob.glob('/DATA/jagabandhu/LD/Displace/Chopped_audio/nonuniform_200ms_duration/Train/B044/*.wav')
+cp_path = '/DATA/jagabandhu/LD/WAV2VEC/Wav2vec_models/Gujarat/checkpoint_best_gujrati.pt' ##Change the model path to where the model file is located for Telegu, Tamil or Gujrati
+train = glob.glob('/DATA/jagabandhu/LD/WAV2VEC/Gujrati/PartB_Gujarati/Train/Audio/*.wav') ## Change accordingly to where the audio files are stored
 #transcript_path = '/DATA/jagabandhu/LD/Displace/Pretrained_files/w2v_fine/Train_overlapduration_500ms_labels/WAVDATA_train.txt'
 model, cfg, task = fairseq.checkpoint_utils.load_model_ensemble_and_task([cp_path])
 
