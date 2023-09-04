@@ -1,6 +1,6 @@
 ## W2V-E2E-Language-diarization
 
-The following repository contains code to the papaer 'End to End Spoken Language Diarization with Wav2vec Embeddings' which has been accepted in Interspeech 2023.
+The following repository contains code to the papaer 'End to End Spoken Language Diarization with Wav2vec Embeddings' which has been accepted in Interspeech 2023 (https://www.isca-speech.org/archive/interspeech_2023/mishra23_interspeech.html).
 
 ## Overview
 
