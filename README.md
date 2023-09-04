@@ -63,3 +63,12 @@ python WaveAttention.py --savedir "/data/KLESLD/Final_checkpoints/WavBase/Telagu
 ##### Note: To train a Gujrati or Tamil pretrained/finetuned model change ```--fll``` to 'G' or 'T' accordingly.
 
 ## Citation
+
+@inproceedings{mishra23_interspeech,
+  author={Jagabandhu Mishra and Jayadev N Patil and Amartya Chowdhury and Mahadeva Prasanna},
+  title={{End to End Spoken Language Diarization with Wav2vec Embeddings}},
+  year=2023,
+  booktitle={Proc. INTERSPEECH 2023},
+  pages={501--505},
+  doi={10.21437/Interspeech.2023-1109}
+}
